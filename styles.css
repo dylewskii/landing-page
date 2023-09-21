@@ -1,0 +1,191 @@
+/* CSS RESET */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* FONTS */
+
+@font-face {
+    font-family: InterBlack;
+    src: url(assets/fonts/Inter-Black.woff2);
+}
+
+@font-face {
+    font-family: InterBold;
+    src: url(assets/fonts/Inter-Bold.woff2);
+}
+
+@font-face {
+    font-family: InterRegular;
+    src: url(/assets/fonts/Inter-Regular.woff2);
+}
+
+@font-face {
+    font-family: InterLight;
+    src: url(assets/fonts/Inter-Light.woff2);
+}
+
+/* HEADER */
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1F2937;
+}
+
+.logo {
+
+}
+
+
+.nav {
+   
+}
+
+.nav__list {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav__item {
+    margin-right: 20px; /* Adjust the spacing between items */
+}
+
+.nav__link {
+    color: white;
+    text-decoration: none;
+}
+
+/* HERO */
+
+.hero {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-around;
+    padding: 60px 60px;
+    
+}
+
+.hero__left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.hero__title {
+    font-size: 48px;
+    font-family: InterBold;
+    color: #F9FAF8;
+    margin-bottom: 10px;
+}
+
+.hero__subtitle {
+    font-size: 18px;
+    font-family: InterLight;
+    color: #E5E7EB;
+    margin-bottom: 10px;
+}
+
+.btn {
+    color: #F9FAF8;
+    background-color: #3882F6;
+    border: 0;
+    padding: 5px 20px;
+    border-radius: 5px;
+    
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+/* FEATURES */
+
+.features {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.features__title {
+    font-size: 27px;
+    font-family: InterBold;
+    margin: 30px 0px;
+}
+
+.features__content {
+    display: flex; 
+    justify-content: space-between; 
+    width: 80%; 
+}
+
+/* TESTIMONY */
+
+.testimony {
+    background-color: #E5E7EB;
+    display: flex;
+    height: 100px;
+    justify-content: space-around;
+}
+
+/* CALL-TO-ACTION */
+
+/* FOOTER */
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    background-color: #1F2937;
+    color: white;
+    justify-content: center;
+    align-items: center;
+
+}
