@@ -19,6 +19,10 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+* {
+    box-sizing: border-box;
+}
+
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
@@ -89,7 +93,6 @@ header {
     align-items: center;
     background-color: #1F2937;
     padding: 10px 10%;
-    border: 1px solid white
 }
 
 .nav__list {
@@ -106,6 +109,7 @@ header {
 .nav__link {
     color: white;
     text-decoration: none;
+    transition: all 0.3s ease 0s;
 }
 
 /* HERO */
@@ -113,13 +117,20 @@ header {
 .hero {
     background-color: #1F2937;
     display: flex;
-    justify-content: space-around;
-    padding: 60px 10%;
+    justify-content: space-between;
+    padding: 60px 15%;
 }
 
 .hero__left {
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
+    max-width: 400px;
+}
+
+.hero__right {
+    display: flex;
+    justify-content: flex-end;
     align-items: flex-start;
 }
 
@@ -127,14 +138,14 @@ header {
     font-size: 48px;
     font-family: InterBold;
     color: #F9FAF8;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 .hero__subtitle {
-    font-size: 18px;
+    font-size: 16px;
     font-family: InterLight;
     color: #E5E7EB;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 .btn {
@@ -149,6 +160,7 @@ header {
 .btn:hover {
     cursor: pointer;
     background-color: #1F65D6;
+    transition: background-color 0.3s ease;
 }
 
 a:hover {
@@ -175,7 +187,7 @@ a:hover {
 .features__content {
     display: flex; 
     justify-content: space-between; 
-    width: 80%; 
+    width: 60%; 
 }
 
 .feature > p {
@@ -194,6 +206,10 @@ a:hover {
     justify-content: center;
     align-items: center;
     padding: 0 160px;
+}
+
+.testimony__content {
+    width: 60%;
 }
 
 .testimony__author {
@@ -236,10 +252,7 @@ a:hover {
     border: 1px solid white;
     color: #E5E7EB;
     padding: 10px 20px;
-    border: 1px solid white;
     border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
 }
 
 
