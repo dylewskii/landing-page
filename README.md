@@ -3,6 +3,8 @@ A landing page created for The Odin Project curriculum.
 
 Languages used: HTML / CSS
 
+Live: https://dylewskii.github.io/landing-page/
+
 
 ## Landing Page Goal
 ![Goal Image](/assets/goalimg.png)
