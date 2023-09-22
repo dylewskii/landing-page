@@ -85,10 +85,11 @@ h3 {
 
 header {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     background-color: #1F2937;
-    
+    padding: 10px 10%;
+    border: 1px solid white
 }
 
 .nav__list {
@@ -113,8 +114,7 @@ header {
     background-color: #1F2937;
     display: flex;
     justify-content: space-around;
-    padding: 60px 60px;
-    
+    padding: 60px 10%;
 }
 
 .hero__left {
