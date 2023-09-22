@@ -4,8 +4,10 @@ A landing page created for The Odin Project curriculum.
 Languages used: HTML / CSS
 
 
-## Webpage Goal
+## Landing Page Goal
 ![Goal Image](/assets/goalimg.png)
+
+## Landing Page Outcome
 ![Outcome Image](/assets/finaloutcome.png)
 
 
